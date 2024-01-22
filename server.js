@@ -9,6 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 //routes
+
 app.get('/', (req, res) => {
     res.send('Hello world and other planets')
 })
